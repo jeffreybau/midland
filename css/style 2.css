@@ -1,0 +1,236 @@
+
+
+/* flag*/
+
+}
+
+.poll{
+        float:left;
+        width:10px;
+        height: 800px;
+        background-color:darkorange
+
+ }
+.wrapper{
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px 200px 200px;
+  grid-gap:px;
+  height:600px;
+}
+  
+.blackbox{
+  background-color:black;
+  color:black;
+  border: 2px solid black;
+  text-align: center;
+  padding:50px;
+ 
+  
+  
+}
+
+.whitebox{
+  background-color:white;
+  color:white;
+  border: 2px solid black;
+  text-align: center;
+  padding:50px;
+
+}
+
+/* page 3 */
+
+    .jeff{
+        background-color:blueviolet; 
+        font-size: 30px;
+        border: 6px solid black;
+    }
+
+    .jeff:hover{
+         color:violet
+
+
+    }
+
+    .breanna {
+     
+     font-size:90px;
+     color:black;
+     border-style:solid ;
+     border-width: 5px;
+     border-color: black;
+     text-align:center;
+     background-color: lime;
+    }
+
+    .breanna:hover {
+
+     text-decoration: underline;
+     background-color: pink;
+     font-size:90px;
+     text-align: center;
+     border-color: black;
+     
+
+    }
+
+    .charger{
+        color:green;
+        align-self: auto
+    }
+
+    a {
+         text-decoration: none;
+            
+    }
+
+ a :hover {
+         text-decoration: underline;
+         background-color: red;
+
+ } 
+ 
+ 
+
+ .taco{
+ 
+     border: 6px  solid  black;
+     font-size: 30px;
+     padding-right: 3px;
+     padding-top: 0px;
+     padding-left:90px;
+     padding-bottom: 0px;
+     background-color: lime;
+     margin-top: 20px;
+     margin-left: 0px;
+     margin-right: 500px;
+     margin-bottom: 20px;
+    
+ }
+
+ .bigtaco{
+
+     border: 6px  solid  black;
+     font-size: 30px;
+     padding-right: 3px;
+     padding-top: 0px;
+     padding-left:90px;
+     padding-bottom: 0px;
+     background-color:blue;
+     margin-top: 20px;
+     margin-left: 500px;
+     margin-right: 0px;
+     margin-bottom: 20px;
+
+ }
+
+
+ .hi{
+
+     border: 6px solid black;
+     color:black;
+     font-size: 30px;
+     background-color: orangered;
+     align-items: left;
+     padding: 20px 20px 20px 20px;
+     float: right;
+ }
+
+ .nav a{
+     color: #0000af;
+     text-decoration: none;
+    font-size: 30px;
+ }
+
+ .nav a li {
+    color: green 
+ 
+
+ }
+
+ ul li {
+
+    padding-left: 0 0 0 50px;
+ }
+
+.nav{
+
+    padding-left: 6px;
+}
+
+.nav li{
+
+    color:purple;
+    padding-left:2px;
+
+}
+
+.nav a {
+}
+
+/*helloword*/
+
+.rap {
+    display: grid;
+    grid-template-columns:500px 500px;
+    grid-gap:5px;
+    height:100px;
+    
+}
+
+.cutie{
+    background-color: orangered; 
+    font-size: 30px;
+    text-align: center;
+    border: 5px solid black;
+    margin-left: 60px;
+    margin-top: 10px;
+    width: 500px;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.cutie :hover{
+    color:lime
+}
+
+
+/* aewsome */
+
+
+ }.kool{
+    text-align: center;
+    font-size: 30px;
+    color:black;
+    margin-top:170px;
+    margin-bottom: 50px;
+
+ }
+.papa{
+    padding-top: 100PX;
+    padding-right: 50px;
+
+}
+nav{
+    color: black
+
+
+}
+.jumbotron{
+
+    padding-left: 64px;
+    padding-right: 64px;
+}
+
+.ok{
+    margin: 50px 50px 50px 50px;
+
+}
+.butt{
+
+text-align: center;
+font-size: 80px;
+
+}
+
+

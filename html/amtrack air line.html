@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+    crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--my css-->
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<script>
+
+  $(document).ready(function () {
+    $("#hello").click(function () {
+      $("#hi").text("not available");
+      $("#hi").css("background-color", "red")
+    });
+  });
+  $(document).ready(function () {
+    $("#how").click(function () {
+      $("#cool").text("good to go");
+      $("#cool").css("background-color", "green")
+    });
+  });
+
+
+  $(document).ready(function () {
+    $("#who").click(function () {
+      setTimeout(function () {
+        var midland = (" destionation tokyo, time two hours, taxes 10%, ");
+        var flight = { detinnation: "tokyo", time: "2 hours", taxes: "10%" };
+        alert("detinnation " + flight.detinnation + " flight time " + flight.time + " taxes " + flight.taxes);
+      }, 1000)
+
+    });
+  });
+
+  $(document).ready(function () {
+    $("#go1").click(function () {
+      $("#flight1").animate({ left: '2000px' })
+
+    });
+  });
+
+
+  $(document).ready(function () {
+    $("#go2").click(function () {
+      $("#flight2").animate({ left: '2000px' })
+
+    });
+  });
+
+
+  $(document).ready(function () {
+    $("#go3").click(function () {
+      $("#flight3").animate({ left: '2000px' })
+
+    });
+  });
+
+
+  $(document).ready(function () {
+    $('#salebutton').dblclick(function () {
+      $('#sale3').append("call about tickes");
+      $('#salebutton').remove();
+    });
+  });
+
+  $(document).ready(function () {
+    $('#salebutton2').dblclick(function () {
+      $('#sale2').text("with our new credit card sign up now");
+      $('#salebutton2').remove();
+    });
+  });
+/* buy now anamation */
+
+  $(document).ready(function(){
+          $(".buy").hide();
+    $("#buy").click(function(){
+      $(".buy").show();
+        $(".buy").animate({letterSpacing: "+=40px"});
+        $(".buy").animate({fontSize: "200px"});
+        
+    });
+  });
+
+
+
+</script>
+
+<div class="box"></div>
+
+  <body>
+
+
+
+
+
+    <!-- Image and text -->
+    <nav class="navbar navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">
+      <img src="https://media.cntraveler.com/photos/57067c1e9adc6caf5afe3f4c/master/pass/plane-landing-cr-getty-sb10062851ai-001.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+      amtrack
+    </a>
+    </nav>
+
+    <div class="row">
+
+      <div class="col-3 col-m-3 menu">
+        <ul class="list-group">
+          <li id="flight1" class="list-group-item"><button id="go1" type="button" class="btn btn-danger">flight  </button></li>
+          <li id="flight2" class="list-group-item"><button id="go2" type="button" class="btn btn-danger">planes  </button></li>
+          <li id="flight3" class="list-group-item"><button id="go3" type="button" class="btn btn-danger">airports</button></li>
+
+        </ul>
+      </div>
+
+      <div class="col-6 col-m-9"> 
+
+
+        <table class="table table-hover table-inverse">
+          <thead>
+            <tr>
+              <th></th>
+              <th>to</th>
+              <th>price</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>mv</td>
+              <td id="hi">$50</p>
+              </td>
+              <td><button id="hello" type="button" class="btn btn-danger">check availably</button></td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>rome</td>
+              <td id="cool">$50</td>
+              <td><button id="how" type="button" class="btn btn-danger">check availably</button></td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>tokyo</td>
+              <td id="hot">$50</td>
+              <td><button id="who" type="button" class="btn btn-danger">check availably</button></td>
+            </tr>
+
+            <tr>
+              <th scope="row"></th>
+              <td colspan="2"></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+              <div>
+              <button id="buy" type="button" class="btn btn-danger">click for our best price</button>
+                  <h1 id="lit" class="buy"> 49.99$ BUY NOW</h1>
+                </div>
+        </div>
+      
+      
+
+      <div class="col-3 col-m-12">
+        <div class="aside">
+
+          <h1 id=""> BIG SALE!!!!</h1>
+          <p id="sale3"></p>
+          <button id="salebutton" type="button" class="btn btn-primary">click for sale</button>
+
+        </div>
+        <div class="aside">
+          <h1 id="sale2">FREE TICKETS</h1>
+          <button id="salebutton2" type="button" class="btn btn-primary">Primary</button>
+
+        </div>
+      </div>
+
+        
+      <footer class "col-12">
+
+        <div class="col-4"> (402) 123-456</div>
+       <div class="col-4"> Omaha </div>
+       <div class="col-4"> zip/ 68118 </div>
+
+      </footer>
+    </div>
+  </body>
+
+</html>

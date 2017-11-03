@@ -1,0 +1,47 @@
+
+mira mikic
+2 months ago
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <script>
+
+        $(document).ready(function(){
+
+            var div = $('#studenti');
+
+            var studenti = [
+
+                {
+                    ime: "Antonela",
+                    prezime: "Antonelić",
+                    smjer: "Zrakoplovstvo - smjer zujanje"
+                },
+                {
+                    ime: "Dalibor",
+                    prezime: "Daliborić",
+                    smjer: "Zrakoplovstvo - smjer zujanje"
+                }
+            ];
+
+            for (i = 0; i < studenti.length; i++) {
+                div.append('<div> Student: <br>');
+                div.append(studenti[i].ime + ' ' + studenti[i].prezime + ' ' + studenti[i].smjer);
+                div.append('</div>');
+            }
+
+        });
+    </script>
+
+</head>
+<body>
+
+<div id="studenti"></div>
+
+</body>
+</html>﻿

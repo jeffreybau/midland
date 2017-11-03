@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <style>
+                
+                .animatedBox{
+                        background: #98bf21;
+                        height: 200px;
+                        width: 200px;
+                        position: absolute
+                }
+                
+                </style>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+
+  $(document).ready(function(){
+    $("button").click(function(){
+        $("div").animate({left: '500px'});
+        $("div").animate({top: '350px'});
+        $("div").animate({left: '80px'});
+        $("div").animate({top: '200px'});
+        $("div").animate({left: '2000px'});
+        $("div").text('breanna is cute');
+        $("div").css({"background-color": "pink", "font-size": "30px" , "text-aling": "center" })
+    });
+});
+
+
+
+ </script> 
+</head>
+
+
+<body>
+
+   <button>click</button>
+
+<p> my box thing thats super awesome</p>
+ <div class="animatedBox"></div>
+
+
+</body>
+</html>
